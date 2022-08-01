@@ -21,7 +21,7 @@ DEPENDENCIES = [
 ]
 
 setup(
-    name='reddit_voter',
+    name='reddit_voting_script',
     version=PACKAGE_VERSION,
     description=DESCRIPTION,
     long_description=README,
@@ -35,6 +35,6 @@ setup(
     entry_points="""
     # -*- Entry points: -*-
     [console_scripts]
-    voter = reddit_voter.reddit_voter:main
+    voter = reddit-voting.reddit-voting:main
     """,
 )
